@@ -1,0 +1,11 @@
+var Apples = 100;
+var Oranges = 200;
+
+if( apples > oranges)
+{
+    console.log("apples are greater than oranges");
+}
+else
+{
+    alert("apples are less than oranges");
+}
