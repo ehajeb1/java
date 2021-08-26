@@ -1,0 +1,6 @@
+const n = 6;
+
+ from i = 1 to 6
+for (let i = 1; i <= n; i++) {
+    console.log(`this is a loop`);
+}
