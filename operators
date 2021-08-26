@@ -1,0 +1,5 @@
+operations in java like math operation 
+let test = 200 + 40
+also logic operations can be used as 
+
+if ( a && b ) or if ( a || b)
