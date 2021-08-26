@@ -1,0 +1,11 @@
+const eEmad = 'Exam';
+switch (emad) {
+  case 'test1':
+    console.log('test1 pass');
+    break;
+  case 'test2':
+  case 'test3':
+    console.log('test2 fail');
+    // expected output: "test 2 and test 3 fail"
+    break;
+}
