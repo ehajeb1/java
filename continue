@@ -1,0 +1,12 @@
+let number = '';
+
+for (let i = 0; i < 10; i++) {
+  if (i === 3) {
+    continue;
+  }
+  number = number + i;
+}
+
+console.log(number);
+
+//it will count to 10 and ignore the 3
