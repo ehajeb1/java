@@ -1,0 +1,7 @@
+let number = 0;
+do {
+    number++;
+    console.log('number is:' + number);
+} while (number < 10)
+
+//the loop continue as long as the number is less than 10
