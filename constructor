@@ -1,0 +1,6 @@
+function Car(make){
+this.make = make;
+}
+let avalon = new Car("toyota");
+let accord = new Car("honda");
+console.log(avalon,accord);
