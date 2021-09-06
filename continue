@@ -9,4 +9,4 @@ for (let i = 0; i < 10; i++) {
 
 console.log(number);
 
-//it will count to 10 and ignore the 3
+//it will count to 10 and ignore the number 3
