@@ -1,0 +1,11 @@
+function Emad(Hajeb) {
+	console.log(Hajeb);
+}
+
+
+function Emad(Hajeb, Hajeb1) {
+	console.log(Hajeb, Hajeb1);
+}
+
+Emad("Qassim")
+//javascript doesn't support functino overloading
