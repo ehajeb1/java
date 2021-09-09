@@ -1,0 +1,10 @@
+
+var userDetails = {
+    name: "Mohammed",
+    age: 25,
+    toString: () => {
+        return "User Details"
+    }
+}
+
+alert(userDetails)
