@@ -1,0 +1,13 @@
+class ClassWithStaticMethod {
+
+  static staticProperty = 'house';
+  static staticMethod() {
+    return 'house is building';
+  }
+
+}
+
+console.log(ClassWithStaticMethod.staticProperty);
+// output: "house"
+console.log(ClassWithStaticMethod.staticMethod());
+// output: "house is building"
