@@ -1,0 +1,6 @@
+const object = {
+  str: 'hi',
+  num: 232,
+  bool: false
+}
+
