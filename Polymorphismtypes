@@ -1,0 +1,36 @@
+// this is a static poly,orphism
+class Calculator
+{
+int add(int x, int y)
+{
+return x+y;
+}
+int add(int x, int y, int z) 
+{
+return x+y+z;
+}
+}
+public class Test
+{
+public static void main(String args[])
+{
+Calculator obj = new Calculator();
+System.out.println(obj.add(100, 200));
+System.out.println(obj.add(100, 200, 300));
+}
+}
+// this is a dynamic polymorphism
+class MacBook{
+public void myMethod(){
+System.out.println("Overridden Method");
+}
+}
+public class iPad extends MacBook{
+public void myMethod(){
+System.out.println("Overriding Method");
+}
+public static void main(String args[]){
+MacBook obj = new iPad();
+obj.myMethod();
+}
+}
