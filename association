@@ -1,0 +1,11 @@
+
+var studentDetail = [];
+studentDetail[0] = "Code";
+studentDetail[1] = "Riyadh";
+studentDetail[2] = 24;
+studentDetail[3] = 'Jeddah';
+var x = studentDetail.length;    
+var y = studentDetail[1];  
+var E = studentDetail[0];
+console.log(x,E)
+console.log(y)
