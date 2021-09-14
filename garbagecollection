@@ -1,0 +1,6 @@
+let a = []
+function addToA() {
+   let x = {name: "John"}
+   a.push(x)
+}
+console.log(a[0])
