@@ -1,0 +1,11 @@
+//Aggregation is simply combining objects
+const obj1 = {
+  foo: 1
+}
+const obj2 = {
+  bar: 2
+}
+const obj3 = {
+  bax: 3
+}
+const merged = Object.assign({}, obj1, obj2, obj3);
